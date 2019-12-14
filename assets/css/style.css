@@ -1,0 +1,59 @@
+body {
+    margin:0 auto;
+    background-image: url(../../assets/images/bg-image.png);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   h1.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   a.navbar-brand {
+     font-size:10px;
+   }
+   /* media quire */
+  @media screen and (max-width:640px) {
+ .navbar
+ {
+  margin-bottom:-8%;
+  margin-left:-8%;
+  padding:0; 
+
+ }
+
+ .navbar-text {
+ width:100%;
+ position:relative;
+ text-align: center; 
+ font-size:40px;
+ margin-top:0px;
+ margin-bottom:0px;
+ }
+
+
+ul {
+  position: relative;
+  text-align: center;
+  margin-right:49%;
+ 
+}
+li {  
+  padding: 0 5%;
+  margin-left:20%;
+}
+.card-body {
+  position:absolute;
+  width:20px;
+  height:80%;
+}
+.card-title {
+ margin-left:14%;
+}
+
+img {
+  margin-left:25%;
+  
+}
+

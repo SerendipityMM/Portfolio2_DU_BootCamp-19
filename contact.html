@@ -10,32 +10,67 @@
     <!--Bootstrap CSS Framework Link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylec.css">
  
 
 </head>
 
 
   <body>
-          <nav class="navbar  navbar-expand-lg navbar-light  bg-light border mx-0 mb-5 py-0" >
+          <nav class="navbar  navbar-expand-lg navbar-light  bg-white border mx-0 mb-5 py-0" >
 
-                    <nav class=" mx-auto navbar navbar-light bg-light pt-0 pb-0 " style="width:960px;"  > 
+                    <nav class=" mx-auto navbar navbar-light bg-white pt-0 pb-0 " style="width:960px;"  > 
                           
                          <div class="navbar-text navbar-light bg-info text-white px-3  py-3 my-0 "  >
                         <h2> Milena Mihneva </h2>
                          </div>
                          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarText">
                           <ul class="navbar-nav list-group-horizontal ">
-                            <li class="nav-item active">
-                              <a class="nav-link" href="#">About </a>
+                            <li class="nav-item ">
+                              <a class="nav-link" href="index.html">About </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Portfolio</a>
+                              <a class="nav-link" href="portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Contact</a>
+                              <a class="nav-link" href="#contact">Contact</a>
                             </li>
                           </ul>
                         </div> 
               </nav> 
             </nav>
            
+            <div class="card-body mx-auto bg-white " style="width:930px">
+              <h1 class="card-title pt-0 pb-0 pl-3 mt-2 text-info ">Contact</h1>
+
+             <hr>
+
+              <!--Form -->
+            <div class="container">
+              <form action="action_page.php">
+            
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">E-mail</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your e-mail address..">
+            
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
+            </div>
+         </div>
+             <!-- Footer  -->
+   <nav class="navbar fixed-bottom navbar-light bg-info my-5 ">
+    <nav class="navbar fixed-bottom navbar-light bg-dark my-0 p-3">
+    <a class=" navbar-brand mx-auto text-white " href="#">Copyright@</a>
+    </nav>
+</nav>
+   
+              </body>
+              </html>
+ 

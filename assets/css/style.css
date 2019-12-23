@@ -13,47 +13,62 @@ body {
    a.navbar-brand {
      font-size:10px;
    }
-   /* media quire */
-  @media screen and (max-width:640px) {
- .navbar
- {
-  margin-bottom:-8%;
-  margin-left:-8%;
-  padding:0; 
 
- }
+  
+   @media (max-width:575.98px) {
+    .card-title {
+      margin-left:20%;
+    
+    }
+    hr {
+      width:80%;
+    }
+.img-fluid {
+ position: relative;
+ 
+ margin-left:60%;
 
- .navbar-text {
- width:100%;
- position:relative;
- text-align: center; 
- font-size:40px;
- margin-top:0px;
- margin-bottom:0px;
- }
+ 
+}
+   .navbar
+{
+ margin-bottom:-8%;
+ margin-left:-8%;
+ padding:0; 
+
+}
+
+.navbar-text {
+width:100%;
+position:relative;
+text-align: center; 
+font-size:40px;
+margin-top:0px;
+margin-bottom:0px;
+}
 
 
 ul {
-  position: relative;
-  text-align: center;
-  margin-right:49%;
- 
+ position: relative;
+ text-align: center;
+ margin-right:49%;
+
 }
 li {  
-  padding: 0 5%;
-  margin-left:20%;
+ padding: 0 5%;
+ margin-left:20%;
 }
+
 .card-body {
-  position:absolute;
-  width:20px;
-  height:80%;
-}
-.card-title {
- margin-left:14%;
-}
+ width:100%;
+ position:relative;
 
-img {
-  margin-left:25%;
+
+}
   
-}
 
+.container {
+  position: relative;
+  display:inline-block;
+
+   }

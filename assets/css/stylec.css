@@ -58,6 +58,12 @@ input[type=text], select, textarea {
     .container {
      width: 50%;
     }
+    .navbar-text{
+      margin-left: auto;
+      margin-right:auto;
+     
+    }
+    
        ul {
          margin-right:70px;
        

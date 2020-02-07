@@ -1,5 +1,8 @@
 body {
-  margin-bottom:10%;
+  margin:0;
+  padding:0;
+  height: 100%;
+  
 }
 
 img {
@@ -9,4 +12,32 @@ img {
 }
 
 
+@media (max-width:575.98px) {
+  .card {
+    margin-left:-28%;
+    margin-bottom:20px;
+  }
+     ul {
+       margin-right:70px;
+     
+     }
+     li {
+       padding:0 20px;
+     }
+   
+   }
+
+   .footer {
+    color: gray;
+    font-size: 8pt;
+    text-align: center;
+    border-top: 8px solid #42A3B9;
+    background-color: #33383E;
+    height:50px;
+    overflow: hidden;
+    left: 0;
+    position: fixed; bottom: 0;
+    bottom: 0;
+    width: 100%;
+  } 
 

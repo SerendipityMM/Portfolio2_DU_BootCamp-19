@@ -1,5 +1,7 @@
 /*Form...*/
-
+*{
+  margin:0;
+}
 /* Styling inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
 
@@ -39,6 +41,46 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color:white;
     padding: 20px;
+    width:100%;
+    position: relative; 
   
   }
 
+  @media (max-width:575.98px) {
+    .card-title {
+      text-align: left;
+      margin-left:15%;
+    }
+    hr {
+      width: 50%;
+      margin-left:-0.5%;
+    }
+    .container {
+     width: 50%;
+    }
+       ul {
+         margin-right:70px;
+       
+       }
+       li {
+         padding:0 20px;
+       }
+     
+     }
+
+  
+     .footer {
+      color: gray;
+      font-size: 8pt;
+      text-align: center;
+      border-top: 8px solid #42A3B9;
+      background-color: #33383E;
+      height:50px;
+      overflow: hidden;
+      left: 0;
+      position: fixed; bottom: 0;
+      bottom: 0;
+      width: 100%;
+    } 
+  
+  

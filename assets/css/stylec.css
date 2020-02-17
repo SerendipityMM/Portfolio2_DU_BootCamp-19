@@ -56,7 +56,7 @@ input[type=text], select, textarea {
       margin-left:-0.5%;
     }
     .container {
-     width: 50%;
+     margin-right:30%;
     }
     .navbar-text{
       margin-left: auto;
@@ -76,17 +76,16 @@ input[type=text], select, textarea {
 
   
      .footer {
-      color: gray;
-      font-size: 8pt;
-      text-align: center;
-      border-top: 8px solid #42A3B9;
-      background-color: #33383E;
-      height:50px;
-      overflow: hidden;
-      left: 0;
-      position: fixed; bottom: 0;
-      bottom: 0;
-      width: 100%;
-    } 
-  
-  
+      padding-top: 5px;
+    
+     font-size: 9pt;
+     text-align: center;
+     border-top: 1px solid lightgrey;
+     background-color: whitesmoke;
+     height:60px;
+     overflow: hidden;
+     left: 0;
+     position: fixed; bottom: 0;
+     bottom: 0;
+     width: 100%;
+   } 

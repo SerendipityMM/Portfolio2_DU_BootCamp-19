@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <!--Font Awesome -->
       <script src="https://kit.fontawesome.com/bde6e95084.js" crossorigin="anonymous"></script>
+
+
+
 </head>
 
 
@@ -56,41 +59,42 @@
                   </p>
                 </div>
                
-          
-              
+  
                    
-  <!-- <div class="card-body mx-auto bg-white " style="width:65%">
-                    <h1 class="card-title pt-0 pb-0 pl-3 mt-2 text-black ">About Me</h1>
-                   <hr>
-                      
-                          <div class="container">
-                              <div class="row">
-                               <div  class= "col-6 col-md-4">
-                               <img src="assets/images/img.png" class="img-fluid" style="width:300px;" alt="photo">
-                               </div> 
+             <img id="myImg" src="resume.jpg" alt="Resume" style="width:100%;max-width:100px">
+             <h4>Click on the image to enlarge personal resume:</h4>
+             
 
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+                
+                <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+                
+                // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var img = document.getElementById("myImg");
+                var modalImg = document.getElementById("img01");
+                var captionText = document.getElementById("caption");
+                img.onclick = function(){
+                  modal.style.display = "block";
+                  modalImg.src = this.src;
+                  captionText.innerHTML = this.alt;
+                }
+                
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+                
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                  modal.style.display = "none";
+                }
+                </script>
 
-
-                       <div class="col-md-8 mb-3">
-                              <p> Hi, there! </p>
-                              <p>
-                                 </p>
-                             <p>“There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for."
-                   
-                              Milton Glaser</p>
-                             <p>“Make things as simple as possible, but not simpler."
-                   
-                              Albert Einstein</p>
-                             <p> “What separates design from art is that design is meant to be... functional."
-                   
-                             Cameron Moll</p>
-                   
-                          </div>
-                          </div>
-                        </div>
-                      </div>  -->
-                        
-            
                     
     <!-- Footer -->
     <footer class="footer bg-light">

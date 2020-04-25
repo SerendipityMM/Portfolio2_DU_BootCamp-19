@@ -1,51 +1,43 @@
 body {
   margin:0;
   padding:0;
-  height: 100%;
-  
 }
 
 img {
   width: 100%;
-  height:200px;
-
 }
 
 
+.card-body {margin-top:-20%;}
 @media (max-width:575.98px) {
   .card {
-    margin-left:-28%;
-    margin-bottom:20px;
+    margin-left:-25%;
+    
   }
   .navbar-text{
-    margin-left: auto;
+    margin-left: AUTO;
     margin-right:auto;
+   
   }
   
      ul {
-       margin-right:70px;
+      margin-right:29%;
      
      }
      li {
        padding:0 20px;
      }
-   
-   }
+     .card-title {
+       margin-left:35%;
+       margin-top:10%;
+      
+     }
 
-   .footer {
-    padding-top: 5px;
+
+   
+   } /*end of media*/
+
   
-   font-size: 9pt;
-   text-align: center;
-   border-top: 1px solid lightgrey;
-   background-color: whitesmoke;
-   height:60px;
-   overflow: hidden;
-   left: 0;
-   position: fixed; bottom: 0;
-   bottom: 0;
-   width: 100%;
- } 
 
  @media (min-width: 768px) {
   /* show 3 items */
